@@ -4,10 +4,18 @@
 
 `http://localhost:8081/ping`
 
-## Events List
+## FindAllUsers
 
-`http://localhost:8081/v1/events`
+`http://localhost:8081/grass/events/FindAllUsers`
 
-## Event (by ID)
+## FindByName
 
-`http://localhost:8081/v1/events/{id}`
+`http://localhost:8081/grass/events/FindByName/:name`
+
+## Create
+
+`http://localhost:8081/grass/events/Create/:name/:age/:city/:country`
+
+## UpdateData
+
+`http://localhost:8081/grass/events/UpdateData/:id/:name/:age/:city/:country`
