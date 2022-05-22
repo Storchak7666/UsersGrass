@@ -19,3 +19,5 @@
 ## UpdateData
 
 `http://localhost:8081/grass/events/UpdateData/:id/:name/:age/:city/:country`
+
+## Використовуйте файл consol для створення таблиці та даних
